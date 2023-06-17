@@ -1,0 +1,54 @@
+#container {
+    max-width: 100vh;
+    margin: auto;
+    text-align: center;
+    background-color: yellow;
+    font-family: helvetica;
+    border: dashed black 5px;
+}
+
+#main {
+    padding: 25px;
+}
+#manage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1, h2, button {
+    font-family: 'Luckiest Guy' , cursive;
+    margin: 10px;
+    border-radius: 5px;
+}
+h1 {
+    background-color: white;
+    padding: 15px 5px 5px 5px;
+    border: black  solid 5px;
+}
+
+h2 {
+    background-color: white;
+    padding: 45px 36px 36px 36px;
+    font-size: 75px;
+    border: black  solid 5px;
+    
+}
+#plus-btn {
+    padding: 10px;
+    background-color: rgb(4, 255, 0);
+    font-size: 20px;
+}
+#save-btn {
+    background-color: red;
+    color: white;
+}
+
+#last-shifts {
+    border: dashed black 1px;
+    background-color: white;
+}
+#save-btn, #last-shifts {
+    padding: 5px;
+    cursor: pointer;
+}
